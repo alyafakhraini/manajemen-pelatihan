@@ -1,0 +1,56 @@
+@page {
+    margin-top: 60px;
+    margin-bottom: 130px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    background-image: url("../../image/template.svg");
+    background-size: cover;
+}
+
+.content {
+    padding-top: 20px;
+    margin-bottom: 100px;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border-radius: 10px;
+    align-items: center;
+    align-content: center;
+}
+
+.table th,
+.table td {
+    border: 1px solid #000000;
+    text-align: center;
+    padding: 8px;
+}
+
+.table thead th {
+    background-color: #93C47D;
+}
+
+.ttd {
+    position: absolute;
+    margin-top: 10px;
+    left: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    font-family: Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 12px;
+    text-align: right;
+}
+
+.page-break {
+    page-break-before: always;
+}

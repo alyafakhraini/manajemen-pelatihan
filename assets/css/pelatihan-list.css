@@ -1,0 +1,35 @@
+.breadcrumb-container {
+    background-color: #e4eefc;
+    padding: 0.2rem 1rem 0.2rem 1rem;
+    border-radius: 0.375rem;
+    margin-bottom: 1rem;
+}
+
+.breadcrumb-container h4 {
+    margin-bottom: 0.5rem;
+}
+
+.card-level-up {
+    background-color: #976ee2;
+}
+
+.card-psc {
+    background-color: #fa8526;
+}
+
+.card-ap {
+    background-color: #4c8adb;
+}
+
+.card-bootcamp {
+    background-color: #35cb88;
+}
+
+.card-done {
+    background-color: #d3d3d3;
+    pointer-events: none;
+}
+
+.card-done img {
+    filter: grayscale(100%);
+}

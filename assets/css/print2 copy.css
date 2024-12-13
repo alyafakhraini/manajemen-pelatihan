@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+}
+
+.content {
+    padding-top: 20px;
+    margin-bottom: 100px;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 25px;
+    border-radius: 10px;
+    align-items: center;
+    align-content: center;
+}
+
+.table th,
+.table td {
+    border: 1px solid #000000;
+    text-align: center;
+    padding: 8px;
+}
+
+.table thead th {
+    background-color: #93C47D;
+}
+
+.ttd {
+    display: flex;
+    height: 15%;
+    width: 50%;
+    margin-top: auto;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-left: 450px;
+    padding-bottom: 10px;
+}
+
+.text-right {
+    text-align: right !important;
+}
+
+.kop {
+    display: flex;
+    justify-content: space-between;
+    /* Memastikan logo dan konten berada di sisi yang berbeda */
+    align-items: center;
+    /* Menyelaraskan logo dan konten secara vertikal */
+    height: 15%;
+    /* Atur tinggi sesuai kebutuhan */
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    /* Sesuaikan padding jika diperlukan */
+    border-bottom: 3px solid black;
+    /* Gaya border bawah */
+    box-sizing: border-box;
+    /* Menghitung padding dan border dalam lebar total */
+    font-family: Helvetica, sans-serif;
+    font-size: 12px;
+    text-align: center;
+}
+
+.logo-bcti {
+    margin-left: 0;
+    /* Atur margin kiri logo agar lebih mendekati kiri */
+    margin-right: auto;
+    /* Mengisi ruang yang tersisa di sebelah kanan logo */
+}
+
+.logo-bcti img {
+    height: 100px;
+    /* Atur tinggi logo sesuai kebutuhan */
+    width: auto;
+    /* Biarkan lebar menyesuaikan dengan tinggi */
+    max-width: 120px;
+    /* Pastikan lebar tidak melebihi 100px */
+    max-height: 100px;
+    /* Pastikan tinggi tidak melebihi 100px */
+}
+
+.kop>div {
+    /* Memberikan jarak antara logo dan teks */
+    margin: 0 10px;
+}
+
+.kop div:last-child {
+    flex: 1;
+    /* Memastikan div kedua (konten) mengisi ruang yang tersisa */
+    text-align: center;
+    /* Mengatur teks di tengah jika diperlukan */
+}
+
+.logo {
+    display: flex;
+    height: 15%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    justify-self: center;
+    padding-top: 0px;
+    padding-bottom: 5px;
+    border-bottom: 3px;
+}
+
+.logo-left {
+    padding-left: 1px;
+    padding-top: 0px;
+    margin-bottom: 5px;
+}
+
+.logo-left img {
+    max-height: 50px;
+    /* Atur tinggi maksimal sesuai kebutuhan */
+    width: auto;
+    /* Pertahankan rasio aspek gambar */
+}
+
+.logo-right {
+    padding-left: 700px;
+    padding-top: 0px;
+    margin-bottom: 5px;
+}
+
+.logo-right img {
+    max-height: 65px;
+    /* Atur tinggi maksimal sesuai kebutuhan */
+    width: auto;
+    /* Pertahankan rasio aspek gambar */
+}
